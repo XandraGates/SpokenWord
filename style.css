@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-brand {
+  font-family: 'Lobster', cursive;
+  font-size: 2rem;
+}
+
+.btn-space {
+  margin-right: 1rem;
+}
+.col-lg {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.video-border {
+  border: 2rem solid #e9ecef;
+  background-color: #e9ecef;
+  transition: box-shadow 1s, border-color 2s, background-color 2s;
+}
+
+.video-border:hover {
+  border-color: #ffc107;
+  background-color: #ffc107;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.4);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.4);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.4);
+}
+
+.page-footer {
+  padding-top: 20px;
+  background-color: #343a40;
+  color: #fff;
+}
+
+.footer-links {
+  color: #fff;
+}
+
+.footer-links:hover {
+  color: #ffc107;
+  text-decoration: none;
+}
+
+.footer-list {
+  list-style: none;
+  position: relative;
+  right: 2.5rem;
+}
+
+.logo {
+  width: 45px;
+  height: 45px;
+}
